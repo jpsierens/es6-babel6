@@ -4,7 +4,9 @@
   "description": "How to get started writing ES6 on the front end with babel 6+",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run start-server & npm run gulp",
+    "start-server": "python -m SimpleHTTPServer 3000",
+    "gulp": "gulp"
   },
   "keywords": [
     "es6",
