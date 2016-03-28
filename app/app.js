@@ -1,4 +1,6 @@
+// example import
 import ExampleClass from "./ExampleClass";
 
-e = new ExampleClass();
+// block scope
+let e = new ExampleClass();
 e.sayHello();
